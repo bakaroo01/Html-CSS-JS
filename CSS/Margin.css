@@ -1,0 +1,17 @@
+
+.box {
+  background-color: #04AA6D;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 50px;
+}
+
+.centered {
+  width: 300px;
+  margin: 0 auto;
+  background:dimgray;
+  color:white;
+  padding:15px;
+}
