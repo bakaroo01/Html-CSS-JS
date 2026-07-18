@@ -1,0 +1,20 @@
+.box {
+  padding: 15px;
+  margin: 25px;
+  border: 1px solid lightgray;
+  outline-width: 3px;
+}
+
+.solid {
+  outline-style: solid;
+  outline-color: #04AA6D;
+}
+
+.dashed {
+  outline: 3px dashed red;
+}
+
+.offset {
+  outline: 3px solid dimgray;
+  outline-offset: 10px;
+}
