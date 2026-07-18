@@ -1,0 +1,16 @@
+p.solid {
+  border-style: solid;
+}
+
+p.dashed {
+  border-style: dashed;
+}
+
+p.thick {
+  border: 3px solid red;
+}
+
+p.rounded {
+  border-style: solid;
+  border-radius: 5px;
+}
