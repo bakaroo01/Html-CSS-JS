@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+}
+
+.sidebar {
+  background-color: dimgray;
+  color: white;
+  padding: 20px;
+  width: calc(100% / 3);
+}
+
+.content {
+  background-color: #f1f1f1;
+  width: calc(100% - 100% / 3);
+  padding: calc(1rem + 10px);
+}
