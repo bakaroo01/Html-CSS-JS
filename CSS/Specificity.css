@@ -1,0 +1,11 @@
+.text {
+  color: green;
+}
+
+p.text {
+  color: blue;
+}
+
+#main {
+  color: red;
+}
