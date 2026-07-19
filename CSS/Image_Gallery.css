@@ -1,0 +1,14 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  border: 1px solid silver;
+  margin: 5px;
+  width: 180px;
+}
+
+.gallery-item img {
+  width: 100%;
+}
