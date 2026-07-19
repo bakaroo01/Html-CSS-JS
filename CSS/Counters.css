@@ -1,0 +1,11 @@
+body {
+  counter-reset: section;
+}
+
+h2 {
+  counter-increment: section;
+}
+
+h2::before {
+  content: counter(section) ". ";
+}
