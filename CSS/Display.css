@@ -1,0 +1,12 @@
+li {
+  display: inline;
+}
+
+span {
+  background-color: yellow;
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
