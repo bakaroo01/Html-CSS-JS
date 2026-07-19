@@ -1,0 +1,15 @@
+p::first-letter {
+  font-size: 200%;
+  color: #04AA6D;
+  float: left;
+}
+
+h2::before {
+  content: "\2605 ";
+  color: gold;
+}
+
+h2::after {
+  content: " \2605";
+  color: gold;
+}
