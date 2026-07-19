@@ -1,0 +1,14 @@
+.icon {
+  display: inline-block;
+  background-image: url('https://www.w3schools.com/css/img_navsprites.gif');
+  width: 43px;
+  height: 44px;
+}
+
+.icon-home {
+  background-position: 0 0;
+}
+
+.icon-next {
+  background-position: -91px 0;
+}
