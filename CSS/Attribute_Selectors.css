@@ -1,0 +1,11 @@
+a[target] {
+  color: red;
+}
+
+a[target="_blank"] {
+  background-color: yellow;
+}
+
+input[type="text"] {
+  border: 2px solid blue;
+}
