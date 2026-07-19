@@ -1,0 +1,11 @@
+img {
+  width: 170px;
+  float: left;
+  margin-right: 15px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 10px;
+  clear: both;
+}
