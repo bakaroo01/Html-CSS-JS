@@ -1,0 +1,20 @@
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #04AA6D;
+  color: white;
+  border: none;
+}
+
+button:hover {
+  background-color: #028a4e;
+}
+
+input:focus {
+  outline: 2px solid #04AA6D;
+}
+
+p:first-child {
+  font-weight: bold;
+}
