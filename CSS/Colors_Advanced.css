@@ -1,0 +1,17 @@
+div {
+  padding: 20px;
+  margin: 10px 0;
+  color: white;
+}
+
+#rgba-box {
+  background-color: rgba(255, 0, 0, 0.5);
+}
+
+#hsla-box {
+  background-color: hsla(120, 100%, 50%, 0.3);
+}
+
+#hex-box {
+  background-color: #ff6347;
+}
