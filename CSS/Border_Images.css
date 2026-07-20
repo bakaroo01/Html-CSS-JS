@@ -1,0 +1,12 @@
+#box1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url(https://www.w3schools.com/css/border.png);
+  border-image-slice: 30;
+}
+
+#box2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(https://www.w3schools.com/css/border.png) 30 round;
+}
