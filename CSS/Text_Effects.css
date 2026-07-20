@@ -1,0 +1,14 @@
+p {
+  width: 200px;
+  border: 1px solid silver;
+  padding: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+h1 {
+  width: 200px;
+  border: 1px solid silver;
+  word-wrap: break-word;
+}
