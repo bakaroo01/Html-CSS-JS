@@ -1,0 +1,21 @@
+* { box-sizing: border-box; }
+
+.col {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.sidebar {
+  background-color: #f1f1f1;
+  padding: 15px;
+}
+
+@media (max-width: 768px) {
+  .col {
+    width: 100%;
+  }
+  .sidebar {
+    display: none;
+  }
+}
