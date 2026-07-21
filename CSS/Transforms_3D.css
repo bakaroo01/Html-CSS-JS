@@ -1,0 +1,22 @@
+div {
+  width: 100px;
+  height: 100px;
+  background-color: #04AA6D;
+  color: white;
+  margin: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 100px;
+}
+
+#rotX {
+  transform: rotateX(45deg);
+}
+
+#rotY {
+  transform: rotateY(45deg);
+}
+
+#rotZ {
+  transform: rotateZ(45deg);
+}
