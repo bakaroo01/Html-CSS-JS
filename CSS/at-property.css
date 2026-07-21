@@ -1,0 +1,16 @@
+@property --myColor {
+  syntax: "<color>";
+  inherits: false;
+  initial-value: red;
+}
+
+div {
+  background-color: var(--myColor);
+  padding: 20px;
+  color: white;
+  transition: --myColor 1s;
+}
+
+div:hover {
+  --myColor: blue;
+}
