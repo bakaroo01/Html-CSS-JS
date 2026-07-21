@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.item {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex: 1;
+}
+
+#main {
+  flex: 2;
+}
+
+#sidebar {
+  background-color: dimgray;
+  order: -1;
+}
