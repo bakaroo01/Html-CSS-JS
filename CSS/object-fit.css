@@ -1,0 +1,13 @@
+img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid lightgray;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
