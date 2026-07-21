@@ -1,0 +1,17 @@
+img {
+  width: 200px;
+  cursor: pointer;
+  transition: filter 0.3s;
+}
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+.blur {
+  filter: blur(3px);
+}
+
+img:hover {
+  filter: none;
+}
