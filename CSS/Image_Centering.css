@@ -1,0 +1,10 @@
+.margin-center {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
