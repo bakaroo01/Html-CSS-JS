@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px;
+  justify-content: center;
+}
+
+.grid > div {
+  background-color: #04AA6D;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+}
