@@ -1,0 +1,22 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.grid > div {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: dimgray !important;
+  grid-column: 1 / 4;
+}
+
+.sidebar {
+  background-color: gray !important;
+  grid-row: 2 / 4;
+}
