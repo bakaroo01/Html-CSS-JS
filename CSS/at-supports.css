@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: #04AA6D;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+@supports (display: grid) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+}
